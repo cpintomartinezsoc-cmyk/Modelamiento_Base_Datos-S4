@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BDB404AB-55DB-B227-6477-341D98840BB7" name="POSTULACION">
+<createdBy>Camilo</createdBy>
+<createdTime>2026-09-05 23:06:50 UTC</createdTime>
+<ownerDesignName>Actividad S4</ownerDesignName>
+<engineerTo>
+<item key="5377914E-5D0D-8561-9667-AA79C63EA102" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="folio_postulante" id="9C110808-EC2D-3371-892B-4C74677E57A3">
+<createdBy>Camilo</createdBy>
+<createdTime>2026-09-05 23:36:19 UTC</createdTime>
+<generatorID>79EEA07C-6E24-2816-ECE3-338E0437EB55</generatorID>
+<ownerDesignName>Actividad S4</ownerDesignName>
+<engineerTo>
+<item key="5377914E-5D0D-8561-9667-AA79C63EA102" value="true"/>
+</engineerTo>
+<referedAttribute>8FFC5847-8822-5394-7E2D-34763AE7FC17</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sigla" id="B8108091-5B7B-4480-413A-BFE3A257ACC9">
+<createdBy>Camilo</createdBy>
+<createdTime>2026-09-05 23:36:32 UTC</createdTime>
+<generatorID>52417953-DFBF-B5A5-CEA7-F02C4DA86806</generatorID>
+<ownerDesignName>Actividad S4</ownerDesignName>
+<engineerTo>
+<item key="5377914E-5D0D-8561-9667-AA79C63EA102" value="true"/>
+</engineerTo>
+<referedAttribute>CD59A9FB-3645-0746-97F1-7A37A68554D7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correlativo" id="5217C904-E131-A0DF-A92A-C22E60932073">
+<createdBy>Camilo</createdBy>
+<createdTime>2026-09-05 23:36:32 UTC</createdTime>
+<generatorID>52417953-DFBF-B5A5-CEA7-F02C4DA86806</generatorID>
+<ownerDesignName>Actividad S4</ownerDesignName>
+<engineerTo>
+<item key="5377914E-5D0D-8561-9667-AA79C63EA102" value="true"/>
+</engineerTo>
+<referedAttribute>C94E07F3-1B34-B8CA-0B66-0E72D19CB57E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_postulacion" id="72BABF96-35BF-C070-B881-A1876EBC266C">
+<createdBy>Camilo</createdBy>
+<createdTime>2026-09-05 23:37:05 UTC</createdTime>
+<ownerDesignName>Actividad S4</ownerDesignName>
+<engineerTo>
+<item key="5377914E-5D0D-8561-9667-AA79C63EA102" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_postulacion" id="B1DC347F-0506-137E-B05E-85DDB074B63E">
+<createdBy>Camilo</createdBy>
+<createdTime>2026-09-05 23:37:27 UTC</createdTime>
+<ownerDesignName>Actividad S4</ownerDesignName>
+<engineerTo>
+<item key="5377914E-5D0D-8561-9667-AA79C63EA102" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FCF4BBBB-E962-FBFC-7A16-6D4310D032C6" name="POSTULACION PK">
+<createdBy>Camilo</createdBy>
+<createdTime>2026-09-05 23:37:25 UTC</createdTime>
+<ownerDesignName>Actividad S4</ownerDesignName>
+<engineerTo>
+<item key="5377914E-5D0D-8561-9667-AA79C63EA102" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>72BABF96-35BF-C070-B881-A1876EBC266C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

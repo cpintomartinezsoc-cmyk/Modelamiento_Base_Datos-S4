@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F7134FA7-A3BE-7863-B983-857A7210B216" name="PROFESION">
+<createdBy>Camilo</createdBy>
+<createdTime>2026-09-05 23:06:54 UTC</createdTime>
+<ownerDesignName>Actividad S4</ownerDesignName>
+<engineerTo>
+<item key="5377914E-5D0D-8561-9667-AA79C63EA102" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_profesion" id="0FD20198-761A-DA42-DAB1-66E385F175D2">
+<createdBy>Camilo</createdBy>
+<createdTime>2026-09-05 23:43:33 UTC</createdTime>
+<ownerDesignName>Actividad S4</ownerDesignName>
+<engineerTo>
+<item key="5377914E-5D0D-8561-9667-AA79C63EA102" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_profesion" id="A686DC41-2BFA-4961-D98B-A46177C5C63F">
+<createdBy>Camilo</createdBy>
+<createdTime>2026-09-05 23:43:50 UTC</createdTime>
+<ownerDesignName>Actividad S4</ownerDesignName>
+<engineerTo>
+<item key="5377914E-5D0D-8561-9667-AA79C63EA102" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="folio_postulante" id="BA40B68E-9755-9B82-9530-4D5605716341">
+<createdBy>Camilo</createdBy>
+<createdTime>2026-09-05 23:46:49 UTC</createdTime>
+<generatorID>442A7F14-FF7D-95C5-1FA4-72196C67D969</generatorID>
+<ownerDesignName>Actividad S4</ownerDesignName>
+<engineerTo>
+<item key="5377914E-5D0D-8561-9667-AA79C63EA102" value="true"/>
+</engineerTo>
+<referedAttribute>93142664-8B5C-8E37-7DE5-5D96B32F14DA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_profesion1" id="5607F57A-35DA-FE34-047C-E37F3B5FCE95">
+<createdBy>Camilo</createdBy>
+<createdTime>2026-09-05 23:46:49 UTC</createdTime>
+<generatorID>442A7F14-FF7D-95C5-1FA4-72196C67D969</generatorID>
+<ownerDesignName>Actividad S4</ownerDesignName>
+<engineerTo>
+<item key="5377914E-5D0D-8561-9667-AA79C63EA102" value="true"/>
+</engineerTo>
+<referedAttribute>4FAD6F5A-5682-8227-8883-5D3FF267E00E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="36B110C3-5A2C-3829-28C2-5CA53A73FACF" name="PROFESION PK">
+<createdBy>Camilo</createdBy>
+<createdTime>2026-09-05 23:43:49 UTC</createdTime>
+<ownerDesignName>Actividad S4</ownerDesignName>
+<engineerTo>
+<item key="5377914E-5D0D-8561-9667-AA79C63EA102" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0FD20198-761A-DA42-DAB1-66E385F175D2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
