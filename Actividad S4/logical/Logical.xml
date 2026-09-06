@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="0E5DFC04-2860-682A-8BC0-3494A78EDD74" mainViewID="78306556-18D6-DAA1-DF28-92EF226497CB">
-<createdBy>Camilo</createdBy>
-<createdTime>2026-09-05 23:00:05 UTC</createdTime>
-<ownerDesignName>Actividad S4</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</LogicalDesign>
