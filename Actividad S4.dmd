@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Actividad S4" id="FDF0129A-C903-66C1-85DF-DB359485F517" version="3.5">
-<createdBy>Camilo</createdBy>
-<createdTime>2026-09-05 23:00:05 UTC</createdTime>
-<ownerDesignName>Actividad S4</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>FDF0129A-C903-66C1-85DF-DB359485F517</designId>
-</OSDM_Design>
